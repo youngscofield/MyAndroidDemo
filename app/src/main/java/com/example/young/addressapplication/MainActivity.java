@@ -92,7 +92,7 @@ public class MainActivity extends Activity {
         SoapObject object = (SoapObject) envelope.bodyIn;
         System.out.println("××5××获得服务数据成功");
         txtAddress = object.getProperty(0).toString();
-        //txtAddress ="测试无网状态";
+        //txtAddress ="测试无网状态";123
         System.out.println("××6××解析服务数据成功，数据为：" + txtAddress);
         System.out.println("××7××向主线程发送消息，显示号码归属地");
         handlerAddress.sendEmptyMessage(0);
