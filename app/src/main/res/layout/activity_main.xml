@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myscroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip">
+        <TableRow></TableRow>
+        <TableRow></TableRow>
+
+        <TableRow>
+            <EditText android:id="@+id/telNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入手机号"/>
+        </TableRow>
+        <TableRow>
+            <Button android:id="@+id/btnSearchAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="查询归属地"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/telAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView> 
+

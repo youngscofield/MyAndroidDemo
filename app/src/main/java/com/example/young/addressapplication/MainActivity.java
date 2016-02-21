@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
         System.out.println("××1××进入getTelAddress方法");
         SoapObject soapObject = new SoapObject(nameSpaceAddress,
                 methodNameAddress);
-        // 这边理论上要做输入验证的，例子图省事没做输入验证验证1
+        // 这边理论上要做输入验证的，例子图省事没做输入验证验证
         soapObject.addProperty("mobileCode", tel.getText().toString());
         soapObject.addProperty("userId", "");
         SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(
